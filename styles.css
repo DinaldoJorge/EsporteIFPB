@@ -579,3 +579,48 @@ img{
    SPORTAVALIA PRO V3
    FIM
 ========================================================== */
+/* ==========================================================
+   BOTÃO DO MENU (SETA) - CELULAR
+========================================================== */
+
+/* Botão que abre a sidebar */
+button[kind="header"]{
+
+    width:48px !important;
+    height:48px !important;
+    min-width:48px !important;
+
+    border-radius:12px !important;
+
+    border:2px solid #FFFFFF !important;
+
+    background:rgba(255,255,255,0.12) !important;
+
+    color:#FFFFFF !important;
+
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+
+    box-shadow:0 0 15px rgba(255,255,255,.35) !important;
+
+    transition:all .25s ease !important;
+}
+
+/* Ícone da seta */
+button[kind="header"] svg{
+
+    width:28px !important;
+    height:28px !important;
+
+    stroke:#FFFFFF !important;
+    fill:#FFFFFF !important;
+}
+
+/* Ao passar o dedo/mouse */
+button[kind="header"]:hover{
+
+    background:rgba(255,255,255,.22) !important;
+
+    box-shadow:0 0 22px rgba(255,255,255,.60) !important;
+}
