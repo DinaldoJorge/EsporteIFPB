@@ -580,82 +580,61 @@ img{
    FIM
 ========================================================== */
 /* ==========================================================
-   BOTÃO DO MENU (SETA) - CELULAR
+   BOTÃO ABRIR MENU (SETA) - AZUL NEON
 ========================================================== */
 
-/* Botão que abre a sidebar */
-button[kind="header"]{
+/* Caixa do botão */
+[data-testid="stSidebarCollapsedControl"] button{
 
-    width:48px !important;
-    height:48px !important;
-    min-width:48px !important;
+    width:60px !important;
+    height:60px !important;
+    min-width:60px !important;
 
-    border-radius:12px !important;
+    background:rgba(0,170,255,.18) !important;
 
-    border:2px solid #FFFFFF !important;
+    border:2px solid #00BFFF !important;
 
-    background:rgba(255,255,255,0.12) !important;
-
-    color:#FFFFFF !important;
+    border-radius:18px !important;
 
     display:flex !important;
     align-items:center !important;
     justify-content:center !important;
 
-    box-shadow:0 0 15px rgba(255,255,255,.35) !important;
+    transition:.25s !important;
 
-    transition:all .25s ease !important;
+    box-shadow:
+        0 0 10px #00BFFF,
+        0 0 25px #00BFFF,
+        0 0 45px #00BFFF !important;
 }
 
-/* Ícone da seta */
-button[kind="header"] svg{
-
-    width:28px !important;
-    height:28px !important;
-
-    stroke:#FFFFFF !important;
-    fill:#FFFFFF !important;
-}
-
-/* Ao passar o dedo/mouse */
-button[kind="header"]:hover{
-
-    background:rgba(255,255,255,.22) !important;
-
-    box-shadow:0 0 22px rgba(255,255,255,.60) !important;
-}
-/* ==========================================================
-   BOTÃO ABRIR SIDEBAR - STREAMLIT
-========================================================== */
-
-[data-testid="stSidebarCollapsedControl"] button{
-
-    width:56px !important;
-    height:56px !important;
-
-    min-width:56px !important;
-
-    background:rgba(255,255,255,.15) !important;
-
-    border:2px solid #FFFFFF !important;
-
-    border-radius:14px !important;
-
-    box-shadow:0 0 18px rgba(255,255,255,.45) !important;
-}
-
+/* A SETA */
 [data-testid="stSidebarCollapsedControl"] svg{
 
     width:34px !important;
     height:34px !important;
 
-    stroke:#FFFFFF !important;
-    fill:#FFFFFF !important;
+    stroke:#7FDBFF !important;
+    fill:#7FDBFF !important;
+
+    filter:drop-shadow(0 0 10px #00BFFF);
 }
 
+/* Hover */
 [data-testid="stSidebarCollapsedControl"] button:hover{
 
-    background:rgba(255,255,255,.25) !important;
+    transform:scale(1.08);
 
-    box-shadow:0 0 28px rgba(255,255,255,.70) !important;
+    background:rgba(0,170,255,.35) !important;
+
+    box-shadow:
+        0 0 20px #00BFFF,
+        0 0 40px #00BFFF,
+        0 0 70px #00BFFF !important;
+}
+
+/* Clique */
+[data-testid="stSidebarCollapsedControl"] button:active{
+
+    transform:scale(.95);
 }
