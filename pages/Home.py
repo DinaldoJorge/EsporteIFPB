@@ -6,7 +6,33 @@ from utils.excel import resumo
 # SPORTAVALIA PRO V2
 # HOME
 # ==========================================================
+st.markdown("""
+<div style="
+background:linear-gradient(90deg,#0EA5E9,#0284C7);
+padding:16px;
+border-radius:15px;
+border:2px solid #38BDF8;
+box-shadow:0 0 20px rgba(14,165,233,.45);
+margin-bottom:25px;
+">
 
+<h3 style="color:white;margin:0;">
+📱 MENU
+</h3>
+
+<p style="
+color:white;
+font-size:18px;
+margin-top:10px;
+margin-bottom:0;
+">
+
+👈 <b>Toque no botão « MENU » localizado no canto superior esquerdo para abrir a navegação do SportAvalia PRO.</b>
+
+</p>
+
+</div>
+""", unsafe_allow_html=True)
 st.set_page_config(
     page_title="SportAvalia PRO",
     page_icon="🏆",
