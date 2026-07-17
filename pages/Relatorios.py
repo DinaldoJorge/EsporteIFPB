@@ -3,6 +3,10 @@ from pathlib import Path
 from utils.excel import listar_atletas, ler_cadastro
 from utils.relatorios import gerar_pdf, obter_pdf
 
+# Espaço após configurar a página
+st.write("")
+st.write("")
+st.write("")
 st.set_page_config(page_title="Relatórios",page_icon="📄",layout="wide")
 
 css=Path("styles.css")
