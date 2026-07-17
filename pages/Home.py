@@ -79,6 +79,58 @@ st.markdown("""
 Sistema Inteligente de Avaliação Esportiva
 </div>
 """, unsafe_allow_html=True)
+st.markdown("""
+<div style="
+background:linear-gradient(90deg,#0284C7,#0EA5E9);
+padding:18px;
+border-radius:18px;
+border:2px solid #38BDF8;
+box-shadow:0 0 25px rgba(56,189,248,.45);
+margin-top:20px;
+margin-bottom:20px;
+">
+
+<div style="display:flex;align-items:center;gap:15px;">
+
+<div style="
+font-size:34px;
+background:white;
+color:#0284C7;
+border-radius:50%;
+width:60px;
+height:60px;
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:bold;
+box-shadow:0 0 20px rgba(255,255,255,.8);
+">
+☰
+</div>
+
+<div>
+
+<h3 style="color:white;margin:0;">
+📱 MENU
+</h3>
+
+<p style="
+margin-top:8px;
+margin-bottom:0;
+font-size:18px;
+color:white;
+">
+
+👈 <b>No celular, toque no botão <span style="color:#FFFF66;">☰ MENU</span> no canto superior esquerdo para abrir a navegação do SportAvalia PRO.</b>
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+""", unsafe_allow_html=True)
 
 st.divider()
 
