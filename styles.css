@@ -624,3 +624,38 @@ button[kind="header"]:hover{
 
     box-shadow:0 0 22px rgba(255,255,255,.60) !important;
 }
+/* ==========================================================
+   BOTÃO ABRIR SIDEBAR - STREAMLIT
+========================================================== */
+
+[data-testid="stSidebarCollapsedControl"] button{
+
+    width:56px !important;
+    height:56px !important;
+
+    min-width:56px !important;
+
+    background:rgba(255,255,255,.15) !important;
+
+    border:2px solid #FFFFFF !important;
+
+    border-radius:14px !important;
+
+    box-shadow:0 0 18px rgba(255,255,255,.45) !important;
+}
+
+[data-testid="stSidebarCollapsedControl"] svg{
+
+    width:34px !important;
+    height:34px !important;
+
+    stroke:#FFFFFF !important;
+    fill:#FFFFFF !important;
+}
+
+[data-testid="stSidebarCollapsedControl"] button:hover{
+
+    background:rgba(255,255,255,.25) !important;
+
+    box-shadow:0 0 28px rgba(255,255,255,.70) !important;
+}
